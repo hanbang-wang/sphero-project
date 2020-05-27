@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM debian:stable-20191118-slim
 COPY . /root
 WORKDIR /root
 RUN sh ./build.sh
